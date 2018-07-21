@@ -30,6 +30,4 @@ function removeElementFromEndOfArray (array) {
   let temp = array.slice(-1)
   return(temp);
 }
-function removeElementFromBeginningOfArray (array) {
-  
-}
+
