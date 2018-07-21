@@ -34,10 +34,11 @@ function destructivelyRemoveElementFromEndOfArray (array) {
 }
 
 function removeElementFromEndOfArray (array) {
-  array.slice(-1)
+  array.slice(-1);
   return(array);
 }
 
 function destructivelyRemoveElementFromBeginningOfArray (array) {
-  return(array.shift())
+  array.shift();
+  return(array);
 }
