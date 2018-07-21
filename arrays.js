@@ -26,10 +26,11 @@ function removeElementFromBeginningOfArray (array) {
   return(array.slice(1));
 }
 
+function destructivelyRemoveElementFromEndOfArray (array) {
+  return(array.pop());
+}
+
 function removeElementFromEndOfArray (array) {
   let temp = array.slice(-1)
   return(temp);
-}
-function destructivelyRemoveElementFromEndOfArray (array) {
-  return(array.pop());
 }
