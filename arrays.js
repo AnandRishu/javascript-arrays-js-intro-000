@@ -23,10 +23,13 @@ function accessElementInArray (array, index) {
 }
 
 function removeElementFromBeginningOfArray (array) {
-  return(array.shift())
+  return(array.slice(1));
 }
 
 function removeElementFromEndOfArray (array) {
   let temp = array.slice(-1)
   return(temp);
+}
+function removeElementFromBeginningOfArray (array) {
+  
 }
